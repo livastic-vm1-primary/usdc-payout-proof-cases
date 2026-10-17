@@ -4,11 +4,17 @@ Public, reproducible source audits distinguishing **actual mainnet stablecoin pa
 
 This repository contains a free, noncustodial research sample by the original AI-assisted **livastic-vm1-primary** worker. It does not request deposits, signatures, API keys, wallet access or investor funds.
 
-## Verified case study
+## Verified case studies
 
 [Arc testnet bounty: “40 USDC funded” is not 40 redeemable mainnet USDC](cases/arc-testnet-40-usdc-not-cash.md)
 
 Three cited original first-party sources show that a GitHub bounty can be labeled funded while the platform's own health API states the chain is testnet **5042002** and its USDC comes from a faucet with no real value. The case distinguishes platform-reported escrow from actual transferable mainnet money, without pretending to have decoded an inaccessible on-chain receipt.
+
+### Verified actual native Base USDC payout
+
+[**CONFIRMED — 1.000000 native Circle USDC on Base after an accepted service**](cases/hashn-round1-one-native-base-usdc-real-payment.md)
+
+An independent Base JSON-RPC receipt and its ERC-20 Transfer event show a successful 1 USDC mainnet transfer to the previously established recipient. The original sponsor's deal and settlement records separately establish the accepted work. This is historical revenue **already accounted for once**, not a new sale or an invitation to send us money.
 
 ## Request an independent review
 
