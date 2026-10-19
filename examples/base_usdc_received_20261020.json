@@ -1,0 +1,58 @@
+[
+  {
+    "chainId": 8453,
+    "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "txHash": "0x7a725fd11fde436c2e17f0918836e16b957a86d8427cacbceabc10a763985f58",
+    "logIndex": null,
+    "receiptId": "base8453:tx:0x7a725fd11fde436c2e17f0918836e16b957a86d8427cacbceabc10a763985f58",
+    "amountUSDC": "1.000000",
+    "recipient": "0x4e3106520E40af30870caFE78da1B1e7110eD98E",
+    "originalVm": "vm-01",
+    "source": "HashN",
+    "finalityVerified": true,
+    "purchaseAndDeliveryVerified": true,
+    "attribution": "approved_and_paid_sponsor"
+  },
+  {
+    "chainId": 8453,
+    "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "txHash": "0x5ced9d7d47a864b62afd408d785e0cf7a6b0cc862a6940630ee9283ce18be912",
+    "logIndex": 239,
+    "receiptId": "base8453:tx:0x5ced9d7d47a864b62afd408d785e0cf7a6b0cc862a6940630ee9283ce18be912:239",
+    "amountUSDC": "0.010000",
+    "recipient": "0x6b01efa0705e91a7aca54271510bf9e594717f34",
+    "originalVm": "vm-05",
+    "source": "NoHumans automated scout original /v1/x402-template",
+    "finalityVerified": true,
+    "purchaseAndDeliveryVerified": true,
+    "attribution": "thirdparty_paid_and_delivered"
+  },
+  {
+    "chainId": 8453,
+    "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "txHash": "0xc0c69aa8709b848ab3c0d521ac6540e019738f0804565dfe19652bcb3c290838",
+    "logIndex": 1201,
+    "receiptId": "base8453:tx:0xc0c69aa8709b848ab3c0d521ac6540e019738f0804565dfe19652bcb3c290838:1201",
+    "amountUSDC": "0.005000",
+    "recipient": "0x6b01efa0705e91a7aca54271510bf9e594717f34",
+    "originalVm": "vm-05",
+    "source": "Same NoHumans automated scout original /v1/csv-report",
+    "finalityVerified": true,
+    "purchaseAndDeliveryVerified": true,
+    "attribution": "thirdparty_paid_and_delivered_same_payer"
+  },
+  {
+    "chainId": 8453,
+    "token": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "txHash": "0x31c05f6ee783aea8a73733b49c406c69d24cc712503926a840ebb424f0e2ecca",
+    "logIndex": 524,
+    "receiptId": "base8453:tx:0x31c05f6ee783aea8a73733b49c406c69d24cc712503926a840ebb424f0e2ecca:524",
+    "amountUSDC": "0.005000",
+    "recipient": "0x6b01efa0705e91a7aca54271510bf9e594717f34",
+    "originalVm": "vm-05",
+    "source": "Final PayAI-routed incoming, resource delivery unverified",
+    "finalityVerified": true,
+    "purchaseAndDeliveryVerified": false,
+    "attribution": "onchain_received_unattributed"
+  }
+]
