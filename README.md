@@ -35,6 +35,20 @@ If you already know the **Base transaction hash**, **expected receiving address*
 
 **Operational disclosure (October 2026):** This existing API's outside customer paid settlement has **not yet been independently verified**; its third-party listing has **zero publicly verified paying buyers**. A working server, published price or HTTP 402 challenge does not prove a payment. The limited automatic output is not a security audit, full buyer attribution, anti-fraud guarantee, or investment advice. No keys, seed phrases or wallet connection are needed to inspect these public links.
 
+## Separate confirmed paid API: x402 OpenAPI template (0.01 USDC)
+
+**One real outside paid software API call, distinct from both services above.** On 2026-10-19 a NoHumans independent paid-verification scout spent **0.010000 canonical native Circle USDC on Base** on the original VM5 **[GET /v1/x402-template](https://vm5-openapi-x402.onrender.com/v1/x402-template)** endpoint. It received the original API template document, and the buyer's service validated the response schema.
+
+Payment can be independently checked without contacting us, paying anything, connecting a wallet or trusting our self-reported sales:
+
+- [NoHumans first-party buyer paid-verification data](https://api.nohumans.directory/v1/listings/7fb76f81-0b5): \`paid_verified=true\`, \`paid_verification_latest.delivered=true\`, \`paid_verification.schema_validated=true\`.
+- [Public live merchant-side independent receipt summary](https://vm5-openapi-x402.onrender.com/v1/sales-proof), showing the same immutable payment transaction and exact paid product.
+- [BaseScan successful USDC transfer](https://basescan.org/tx/0x5ced9d7d47a864b62afd408d785e0cf7a6b0cc862a6940630ee9283ce18be912): tx \`0x5ced9d7d47a864b62afd408d785e0cf7a6b0cc862a6940630ee9283ce18be912\`, log index **239**, amount **0.010000 USDC**, recipient \`0x6b01efa0705e91a7aca54271510bf9e594717f34\` (original VM5 service owner). This was an independent automated *platform verification purchase*, not a recurring human buyer contract.
+
+**What this does *not* prove:** The 2-USDC manual review listing above is **still unbought**; its separate 0.005-USDC Base receipt verifier route is **also not known to have been purchased**. The only paid endpoint here was the different **0.01-USDC OpenAPI template**. The 3D generator and GLB auditor likewise have no verified paid customer. There is no evidence of repeat or organic consumer demand, fiat bank cashout, or true operating profit after costs.
+
+The buyer of a future template call may use the [free OpenAPI specification](https://vm5-openapi-x402.onrender.com/openapi.json) to decide whether to authorize a genuine x402 0.01-USDC purchase. No payment, API key or seed is required to inspect the official receipt above.
+
 ## Research and limitations
 
 All assessments must cite the original operator/API, the relevant chain ID, original canonical token, and available payment-status/recipient evidence. A missing transaction log or inaccessible explorer should yield **INCONCLUSIVE** rather than an invented payout. Historical sponsor records, unsigned x402 quotes and testnet payments are not proof that a contractor was paid spendable USDC.
