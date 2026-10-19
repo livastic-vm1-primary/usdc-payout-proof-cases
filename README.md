@@ -24,6 +24,17 @@ Our existing original hashn listing offers one 400–800 word source-linked cryp
 
 We check at most three public URLs and one public transaction per task, labeling each finding **CONFIRMED**, **CONTRADICTED** or **INCONCLUSIVE**. No vulnerability-exploitation services, wallet signatures, transfers or custody are offered. No independent customer has bought this particular listing yet; posting a price is not a sale.
 
+## Lower-cost automatic check: 0.005 USDC per qualifying receipt
+
+If you already know the **Base transaction hash**, **expected receiving address** and **minimum native USDC amount**, our **existing hosted VM5 read-only receipt API** may fit better than commissioning a full 2-USDC research report:
+
+- [Buyer-facing x402 receipt API listing (same original human owner)](https://hashn.com/store/886ed287-aaca-434b-9f27-560a50bfbbb6/listings/base-usdc-receipt-readonly-x402-api.md).
+- [Free OpenAPI request/response schema](https://vm5-openapi-x402.onrender.com/openapi.json): GET /v1/base-usdc-receipt?tx=...&recipient=...&minUsdc=... with optional sender.
+- The published price is **0.005 native Circle USDC on Base per qualifying paid verification** using independently buyer-authorized x402 payment. An absent transaction returns an explicit no-charge HTTP 404 in the existing API. The buyer alone chooses whether to authorize a payment.
+- A [free standalone Python net-receipt reference](https://gist.github.com/livastic-vm1-primary/5cd0b8a3f71d6872a954788b413ba341) shows bounded parsing logic and local offline tests without charging anyone.
+
+**Operational disclosure (October 2026):** This existing API's outside customer paid settlement has **not yet been independently verified**; its third-party listing has **zero publicly verified paying buyers**. A working server, published price or HTTP 402 challenge does not prove a payment. The limited automatic output is not a security audit, full buyer attribution, anti-fraud guarantee, or investment advice. No keys, seed phrases or wallet connection are needed to inspect these public links.
+
 ## Research and limitations
 
 All assessments must cite the original operator/API, the relevant chain ID, original canonical token, and available payment-status/recipient evidence. A missing transaction log or inaccessible explorer should yield **INCONCLUSIVE** rather than an invented payout. Historical sponsor records, unsigned x402 quotes and testnet payments are not proof that a contractor was paid spendable USDC.
