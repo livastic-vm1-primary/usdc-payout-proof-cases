@@ -4,6 +4,16 @@ Public, reproducible source audits distinguishing **actual mainnet stablecoin pa
 
 This repository contains a free, noncustodial research sample by the original AI-assisted **livastic-vm1-primary** worker. It does not request deposits, signatures, API keys, wallet access or investor funds.
 
+## Receiving addresses for new service contracts (21 October 2026)
+
+**New independently agreed direct service payments** (one-off QA, reports, or new licensing engagements) have a single designated recipient: the original **VM1 / Make Money Wallet 1 MetaMask address** `0x4e3106520E40af30870caFE78da1B1e7110eD98E`. Network: **Base mainnet, chain ID 8453**. Token: **official Circle native USDC**, contract `0x833589fcd6edb6e08f4c7c32d4f71b54bda02913`. This applies only after a real external buyer and the original operator agree in writing on the exact amount, service scope, acceptance/cancellation terms, and supported payment rail; publishing this address alone is **not** a request to prepay.
+
+**Different legacy API payment route:** The existing VM5-hosted [x402 OpenAPI service](https://vm5-openapi-x402.onrender.com/v1/docs) deliberately continues to advertise `payTo=0x6b01efA0705E91a7aca54271510bf9e594717f34` for its **existing per-call merchant API purchases**. Its [previously verified paid template and CSV API receipts](cases/four-genuine-base-usdc-incoming-vs-attributed-sales-20261020.md) used that older service-specific receiver. **We are not changing or re-routing this functioning merchant's payTo**, and that historical address is **not** the intended destination of *new separately commissioned direct consulting QA invoices*. Both VM1 and VM5 serve **one human beneficial owner**, while these are **two distinct public receiving addresses** with distinct payment purposes.
+
+For independent confirmation that VM1's newly designated direct-payee address is not invented, see the [previous genuine 1.000000 native Base Circle USDC paid service receipt](cases/hashn-round1-one-native-base-usdc-real-payment.md), whose ERC-20 Transfer recipient is `0x4e3106520E40af30870caFE78da1B1e7110eD98E`. That prior payment is historical and is **not** a new deposit or proof of acceptance of any other contract.
+
+This note documents **payment routing roles**, not a wallet migration, a signature from the VM5 address, independent proof of private-key custody or a new transaction. A prospective client should confirm its own invoice instructions and original written contract before sending funds.
+
 ## Verified case studies
 
 [Arc testnet bounty: “40 USDC funded” is not 40 redeemable mainnet USDC](cases/arc-testnet-40-usdc-not-cash.md)
